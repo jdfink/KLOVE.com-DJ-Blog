@@ -1,6 +1,31 @@
+
+.bg-kllight {
+    background-color:#e9ecef;
+}
+h5 {
+    letter-spacing:0;
+}
+.nm-5 {
+    margin-top:-8rem;
+}
+.nm-4 {
+    margin-top:-6rem;
+}
+.nm-3 {
+    margin-top:-4rem;
+}
+.nm-2 {
+    margin-top:-2rem;
+}
+.nm-1 {
+    margin-top:-1rem;
+}
 input[type='text'],
 select {
     border-width:1px!important;
+}
+.nav-item.nav-link.active {
+    background-color:#00aeff;
 }
 .input-group-append .btn {
     border:solid 1px #b8bfc4!important;
@@ -31,4 +56,45 @@ select {
 }
 .btn-social:hover {
     opacity:.85;
+}
+.card-img {
+    position:relative;
+    overflow:hidden;
+}
+.dj-author {
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0));
+    position:absolute;
+    top:0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dj-author img {
+    max-width:10%;
+}
+.card a:link {
+    text-decoration:none;
+}
+.card .dj-author a:hover {
+    text-decoration:underline;
+}
+.card .card-body h5:hover {
+    text-decoration:underline;
+}
+.card .card-body .alert-primary {
+    transition:all ease-in-out .125s;
+}
+.card .card-body .alert-primary:hover {
+    background-color:#00aeff;
+    color:white!important;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
 }
